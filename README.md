@@ -1,6 +1,6 @@
 # Text Summarization
 
-Text summarization CLI application written in Python, greatly inspired by 
+Text summarization CLI application written in Python, greatly inspired by
 [this article](https://stackabuse.com/text-summarization-with-nltk-in-python).
 
 ## Usage
@@ -19,6 +19,7 @@ $ which python
 
 # Install dependencies
 $ pip3 install -r requirements.txt
+$ pip3 install lxml
 ```
 
 Then, you launch the CLI application by providing two arguments: the URL you're scraping and the number of sentences

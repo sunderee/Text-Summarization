@@ -27,3 +27,15 @@ that your summary should contain, for example
 ```bash
 $ python3 main.py 'https://en.wikipedia.org/wiki/Europe' 4
 ```
+
+### Containerization Tutorial
+
+CLI application can be run as a Docker container.
+
+```bash
+$ docker build -t img .
+$ docker run \
+    --name imgname \
+    -e URL="https://en.wikipedia.org/wiki/Europe" \
+    -e NUMBER_OF_ARGUMENTS=4 img
+```
